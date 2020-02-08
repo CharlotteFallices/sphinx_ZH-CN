@@ -39,13 +39,17 @@ For more information, refer to the [the documentation](http://www.sphinx-doc.org
 
 ## Installation
 
-Sphinx is published on [PyPI](https://pypi.org/project/Sphinx/) and can be installed from there::
+Sphinx is published on [PyPI](https://pypi.org/project/Sphinx/) and can be installed from there:
 
+```
    pip install -U sphinx
+```
 
-We also publish beta releases::
+We also publish beta releases:
 
+```
    pip install -U --pre sphinx
+```
 
 If you wish to install `Sphinx` for development purposes, refer to [the
 contributors guide](http://www.sphinx-doc.org/en/master/devguide.html).
@@ -56,7 +60,7 @@ Documentation is available from [sphinx-doc.org](http://www.sphinx-doc.org/).
 
 ## Get in touch
 
-- Report bugs, suggest features or view the source code [on GitHub](https://github.com/sphinx-doc/sphinx).
+- Report bugs, suggest features or view the source code [on GitHub](sphinx).
 - For less well defined questions or ideas, use the [mailing list](https://groups.google.com/forum/#!forum/sphinx-users).
 
 Please adhere to our [code of conduc](http://www.sphinx-doc.org/en/master/code_of_conduct.html).
