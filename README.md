@@ -2,76 +2,65 @@
 
 <img src="https://img.shields.io/pypi/v/sphinx.svg" alt="Package on PyPI"> <img src="https://readthedocs.org/projects/sphinx/badge/?version=master" alt="Documentation Status"> <img src="https://travis-ci.org/sphinx-doc/sphinx.svg?branch=master" alt="Build Status (Travis CI)"> <img src="https://ci.appveyor.com/api/projects/status/github/sphinx-doc/sphinx?branch=master&svg=true" alt="Build Status (AppVeyor)"> <img src="https://circleci.com/gh/sphinx-doc/sphinx.svg?style=shield" alt="Build Status (CircleCI)"> <img src="https://codecov.io/gh/sphinx-doc/sphinx/branch/master/graph/badge.svg" alt="Code Coverage Status (Codecov)"> <img src="https://img.shields.io/badge/License-BSD%203--Clause-blue.svg" alt="BSD 3 Clause">
 
-Sphinx is a tool that makes it easy to create intelligent and beautiful
-documentation for Python projects (or other documents consisting of multiple
-reStructuredText sources), written by Georg Brandl.  It was originally created
-for the new Python documentation, and has excellent facilities for Python
-project documentation, but C/C++ is supported as well, and more languages are
-planned.
+Sphinx是由Georg Brandl编写的工具，可让您轻松地为Python项目（或由多个reStructuredText源组成的其他文档）创建智能且美观的文档。它最初是为新的Python文档创建的，具有用于Python项目文档的出色功能，但同时也支持C / C ++，并且计划了更多的语言。
 
-Sphinx uses reStructuredText as its markup language, and many of its strengths
-come from the power and straightforwardness of reStructuredText and its parsing
-and translating suite, the Docutils.
+Sphinx使用reStructuredText作为其标记语言，其许多优点来自reStructuredText及其解析和翻译插件Docutils的强大功能和直接性.
 
-Among its features are the following:
+其功能包括:
 
-- Output formats: HTML (including derivative formats such as HTML Help, Epub
-  and Qt Help), plain text, manual pages and LaTeX or direct PDF output
-  using rst2pdf
-- Extensive cross-references: semantic markup and automatic links
-  for functions, classes, glossary terms and similar pieces of information
-- Hierarchical structure: easy definition of a document tree, with automatic
-  links to siblings, parents and children
-- Automatic indices: general index as well as a module index
-- Code handling: automatic highlighting using the Pygments highlighter
-- Flexible HTML output using the Jinja 2 templating engine
-- Various extensions are available, e.g. for automatic testing of snippets
-  and inclusion of appropriately formatted docstrings
-- Setuptools integration
+- 输出格式:HTML(包括派生格式,例如HTML help，Epub和Qt help),纯文本manual pages和LaTeX或使用rst2pdf的直接PDF输出.
+- 广泛的交叉引用:功能,类,词汇术语(glossary terms)和类似信息的语义标记和自动链接
+- 层次结构:定义文档树时自动链接到相关文件.
+- 自动索引:常规索引以及模块索引.
+- 代码处理:使用Pygments语法高亮(highlighter)自动突出显示.
+- 使用Jinja 2模板灵活地输出HTML.
+- 提供扩展程序,例如用于自动测试代码片段并包含适当格式的字符串(docstrings).
+- Setuptools集成.
 
-For more information, refer to the [the documentation](http://www.sphinx-doc.org).
+有关更多信息，请参考[文档](http://www.sphinx-doc.org).
 
 ## Installation
 
-Sphinx is published on [PyPI](https://pypi.org/project/Sphinx/) and can be installed from there:
+正式版可以在[PyPI](https://pypi.org/project/Sphinx/)上安装:
 
 ```
    pip install -U sphinx
 ```
 
-We also publish beta releases:
+beta版请使用以下命令:
 
 ```
    pip install -U --pre sphinx
 ```
 
-If you wish to install `Sphinx` for development purposes, refer to [the
-contributors guide](http://www.sphinx-doc.org/en/master/devguide.html).
+如果您是要处于开发`Sphinx`的目的而安装,请参考[开发者指南](http://www.sphinx-doc.org/en/master/devguide.html).
 
 ## Documentation
 
-Documentation is available from [sphinx-doc.org](http://www.sphinx-doc.org/).
+可以从[sphinx-doc.org](http://www.sphinx-doc.org/)获得帮助文档.
 
 ## Get in touch
 
-- Report bugs, suggest features or view the source code [on GitHub](sphinx).
-- For less well defined questions or ideas, use the [mailing list](https://groups.google.com/forum/#!forum/sphinx-users).
+- 请将bugs和feature提交到[GitHub](sphinx),您也可以在这里查看源代码.
+- 不太明确的想法更建议发送至[mailing list](https://groups.google.com/forum/#!forum/sphinx-users).
 
-Please adhere to our [code of conduc](http://www.sphinx-doc.org/en/master/code_of_conduct.html).
+也请您同时遵守我们的[行为准则](http://www.sphinx-doc.org/en/master/code_of_conduct.html).
 
 ## Testing
 
-Continuous testing is provided by [Travis](https://travis-ci.org/sphinx-doc/sphinx)(for unit tests and style checks on Linux),[AppVeyor](https://ci.appveyor.com/project/sphinxdoc/sphinx)(for unit tests on Windows), and [CircleCI](https://circleci.com/gh/sphinx-doc/sphinx)(for large processes like TeX compilation).
+[Travis](https://travis-ci.org/sphinx-doc/sphinx)用于Linux上的单元测试和样式检查,
+[AppVeyor](https://ci.appveyor.com/project/sphinxdoc/sphinx)适用于Windows上的单元测试,
+[CircleCI](https://circleci.com/gh/sphinx-doc/sphinx)适用于类似TeX编译的大型任务.
 
-For information on running tests locally, refer to [the contributors guide](http://www.sphinx-doc.org/en/master/devguide.html).
+有关在本地运行测试的信息，请参考[开发者指南](http://www.sphinx-doc.org/en/master/devguide.html).
 
 ## Contributing
 
-Refer to [the contributors guide](http://www.sphinx-doc.org/en/master/devguide.html).
+请参考[开发者指南](http://www.sphinx-doc.org/en/master/devguide.html).
 
 ## Release signatures
 
-Releases are signed with following keys:
+使请用以下密钥对发布进行签名:
 
 - [498D6B9E](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x102C2C17498D6B9E)
 - [5EBA0E07](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x1425F8CE5EBA0E07)
