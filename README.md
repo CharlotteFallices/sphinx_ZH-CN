@@ -1,12 +1,6 @@
 # Sphinx
 
-[Package on PyPI](https://img.shields.io/pypi/v/sphinx.svg)
-[Documentation Status](https://readthedocs.org/projects/sphinx/badge/?version=master)
-[Build Status (Travis CI)](https://travis-ci.org/sphinx-doc/sphinx.svg?branch=master)
-[Build Status (AppVeyor)](https://ci.appveyor.com/api/projects/status/github/sphinx-doc/sphinx?branch=master&svg=true)
-[Build Status (CircleCI)](https://circleci.com/gh/sphinx-doc/sphinx.svg?style=shield)
-[Code Coverage Status (Codecov)](https://codecov.io/gh/sphinx-doc/sphinx/branch/master/graph/badge.svg)
-[BSD 3 Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+<img src="https://img.shields.io/pypi/v/sphinx.svg" alt="Package on PyPI"> <img src="https://readthedocs.org/projects/sphinx/badge/?version=master" alt="Documentation Status"> <img src="https://travis-ci.org/sphinx-doc/sphinx.svg?branch=master" alt="Build Status (Travis CI)"> <img src="https://ci.appveyor.com/api/projects/status/github/sphinx-doc/sphinx?branch=master&svg=true" alt="Build Status (AppVeyor)"> <img src="https://circleci.com/gh/sphinx-doc/sphinx.svg?style=shield" alt="Build Status (CircleCI)"> <img src="https://codecov.io/gh/sphinx-doc/sphinx/branch/master/graph/badge.svg" alt="Code Coverage Status (Codecov)"> <img src="https://img.shields.io/badge/License-BSD%203--Clause-blue.svg" alt="BSD 3 Clause">
 
 Sphinx is a tool that makes it easy to create intelligent and beautiful
 documentation for Python projects (or other documents consisting of multiple
