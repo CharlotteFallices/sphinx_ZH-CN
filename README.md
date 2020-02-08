@@ -4,18 +4,18 @@
 
 Sphinx是由Georg Brandl编写的工具，可让您轻松地为Python项目（或由多个reStructuredText源组成的其他文档）创建智能且美观的文档。它最初是为新的Python文档创建的，具有用于Python项目文档的出色功能，但同时也支持C / C ++，并且计划了更多的语言。
 
-Sphinx使用reStructuredText作为其标记语言，其许多优点来自reStructuredText及其解析和翻译插件Docutils的强大功能和直接性.
+Sphinx使用`reStructuredText`作为其标记语言，其许多优点来自`reStructuredText`及其解析和翻译插件`Docutils`的强大功能和直接性.
 
 其功能包括:
 
-- 输出格式:HTML(包括派生格式,例如HTML help，Epub和Qt help),纯文本manual pages和LaTeX或使用rst2pdf的直接PDF输出.
+- 输出格式:HTML(包括派生格式,例如`HTML help`,`Epub`和`Qt help`),`纯文本`,`manual pages`和`LaTeX`或使用`rst2pdf`的直接PDF输出.
 - 广泛的交叉引用:功能,类,词汇术语(glossary terms)和类似信息的语义标记和自动链接
 - 层次结构:定义文档树时自动链接到相关文件.
 - 自动索引:常规索引以及模块索引.
-- 代码处理:使用Pygments语法高亮(highlighter)自动突出显示.
-- 使用Jinja 2模板灵活地输出HTML.
+- 代码处理:使用`Pygments语法高亮`**(highlighter)** 自动突出显示.
+- 使用`Jinja 2`模板灵活地输出HTML.
 - 提供扩展程序,例如用于自动测试代码片段并包含适当格式的字符串(docstrings).
-- Setuptools集成.
+- `Setuptools`集成.
 
 有关更多信息，请参考[文档](http://www.sphinx-doc.org).
 
@@ -50,7 +50,7 @@ beta版请使用以下命令:
 
 [Travis](https://travis-ci.org/sphinx-doc/sphinx)用于Linux上的单元测试和样式检查,
 [AppVeyor](https://ci.appveyor.com/project/sphinxdoc/sphinx)适用于Windows上的单元测试,
-[CircleCI](https://circleci.com/gh/sphinx-doc/sphinx)适用于类似TeX编译的大型任务.
+[CircleCI](https://circleci.com/gh/sphinx-doc/sphinx)适用于类似`TeX编译`的大型任务.
 
 有关在本地运行测试的信息，请参考[开发者指南](http://www.sphinx-doc.org/en/master/devguide.html).
 
